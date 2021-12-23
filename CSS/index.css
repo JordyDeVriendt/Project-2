@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto ;
+}
+.jumbotron{
+    width: 90%;
+    margin: auto;
+}
+.opleidingLink{
+    font-size: 20px; 
+    color: black;
+    text-decoration: underline #009CAB;
+}
+.opleidingLink:hover{
+    color: black;
+    text-decoration: underline white;
+}
+.column1 {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+}
+
+.column2 {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.column {
+    flex: 33%;
+    background-color: white;
+    padding: 20px;
+}
+.backgroundTXT {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+}
+.cardFoto{
+    width: 40px;
+}
+/* get in touch button */
+.btnContact{
+    padding: 10px;
+    margin-left: 43%;
+    font-size: 32px;
+    background-color:#009CAB;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow:5px 5px 5px grey;
+}
+.btnContact:hover{
+    color: gray;
+    background-color: #008c99;
+}
+@media screen and (max-width: 700px) {
+    .btnContact{
+        margin-left: 28%;
+    }
+    .footerColumn1{
+        flex: 100%;
+    }
+    .row2{
+        flex-direction: column;
+    }
+}
